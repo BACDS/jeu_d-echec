@@ -37,7 +37,7 @@ class ChessGame():
         self.tour='blanc'
         self.compteur=1
        
-        self.profondeur=profondeur 
+        self.profondeur=profondeur
 
    
 
@@ -67,12 +67,12 @@ class ChessGame():
 
    
 
-    def changement_tour(self): #projet-echec1
+    def changement_tour(self): 
         if self.tour=='blanc':
             self.tour='noir'
             self.compteur+=1
         else:
-            self.tour='blanc' #Deux valeurs possibles uniquement 'noir' ou 'blanc'
+            self.tour='blanc' 
             self.compteur+=1
  
     def obtenir_piece(self, position,echiquier):
