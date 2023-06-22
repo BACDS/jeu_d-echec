@@ -37,7 +37,7 @@ class ChessGame():
         self.tour='blanc'
         self.compteur=1
        
-        self.profondeur=profondeur
+        self.profondeur=profondeur 
 
    
 
