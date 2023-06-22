@@ -204,7 +204,7 @@ class ChessGame():
 
 
             if self.echec_et_mat(self.tour,self.echiquier) is True:
-                print("C'est finito pour toi, révise tes leçons")
+                print("C'est fini pour toi, révise tes leçons")
        
 
     def sauvegarder_etat_echiquier(self,echiquier):
